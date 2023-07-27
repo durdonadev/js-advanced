@@ -109,10 +109,9 @@ onyx = new Pokemon("onyx", "rock", rockTypeMoves);
 
 Pokemon.prototype.availableMoves = function () {
     const maxLevel = 50;
-    const levelFraction = this.level / maxLevel;
-    const availableMovesCount = Math.floor(this.moves.length * levelFraction);
-    const movesResult = this.moves.slice(0, Math.max(availableMovesCount, 1));
-    return movesResult;
+    const fraction = this.level / maxLevel;
+    const availableCount = Math.ceil(this.moves.length * fraction);
+    return this.moves.slice(0, Math.max(availableCount, 1));
 };
 
 // console.log(pikachu.moves);
@@ -122,26 +121,23 @@ Pokemon.prototype.availableMoves = function () {
 // console.log(onyx.availableMoves());
 
 Pokemon.prototype.attack = function (opponent, moveName) {
-    let selectedMove = this.moves[0]; // By default, use the first move if moveName is not provided or found
-    if (moveName) {
-        // If moveName is provided, find the corresponding move
-        selectedMove = this.moves.find((move) => move.name === moveName);
+    let move = this.moves.find((move) => move.name === moveName);
+    if (!move) {
+        const availableMoves = this.availableMoves();
+        move = availableMoves[availableMoves.length - 1];
     }
 
-    // If the move is not found, use the first move as a fallback
-    if (!selectedMove) {
-        selectedMove = this.moves[0];
-    }
-
-    const damage = selectedMove.damage;
+    console.log(`${this.name} attacked with ${move.name}!`);
+    const damage = move.damage;
     opponent.hp -= damage;
 
-    console.log(`${this.name} attacked with ${selectedMove.name}!`);
-    console.log(`Damage to ${opponent.name}: ${damage}`);
+    console.log(`Damage to ${opponent.name}: -${damage}`);
     console.log(`${this.name} hp: ${this.hp}`);
-    console.log(`${opponent.name} hp: ${opponent.hp <= 0 ? 0 : opponent.hp}`);
+    console.log(`${opponent.name} hp: ${opponent.hp}`);
+
+    return opponent;
 };
 
-// pikachu.attack(bulbasaur, "Tackle");
+pikachu.attack(bulbasaur, "Tackle");
 // bulbasaur.attack(pikachu, "Absorb");
 // onyx.attack(pikachu);
