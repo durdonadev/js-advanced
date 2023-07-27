@@ -66,8 +66,7 @@ String.prototype.isPalindrome = function () {
     // return false;
 
     return (
-        this.toLowerCase().split("").join("") ===
-        this.toLowerCase().split("").reverse().join("")
+        this.toLowerCase() === this.toLowerCase().split("").reverse().join("")
     );
 };
 
@@ -80,16 +79,12 @@ String.prototype.isPalindrome = function () {
 // Example: (4).isPrime() should return false.
 
 Number.prototype.isPrime = function () {
-    if (this <= 1) {
-        return false;
-    }
-
     for (let i = 2; i < this; i++) {
         if (this % i === 0) {
             return false;
         }
     }
-    return true;
+    return this > 1;
 };
 
 // console.log((7).isPrime());
@@ -100,11 +95,11 @@ Number.prototype.isPrime = function () {
 // Example: (3).toFactorial() should return 6.
 
 Number.prototype.toFactorial = function () {
-    let result = 1;
-    for (let i = this; i > 0; i--) {
-        result *= i;
+    let factorial = 1;
+    for (let i = this; i > 1; i--) {
+        factorial *= i;
     }
-    return result;
+    return factorial;
 };
 
 // console.log((5).toFactorial());
@@ -115,14 +110,14 @@ Number.prototype.toFactorial = function () {
 // Example: (16).findFactors() should return [1, 2, 4, 8, 16].
 
 Number.prototype.findFactors = function () {
-    let result = [];
+    let factors = [];
 
     for (let i = 1; i <= this; i++) {
         if (this % i === 0) {
-            result.push(i);
+            factors.push(i);
         }
     }
-    return result;
+    return factors;
 };
 
 // console.log((10).findFactors());
@@ -133,6 +128,11 @@ Number.prototype.findFactors = function () {
 // Example: (8).isPerfectSquare() should return false.
 
 Number.prototype.isPerfectSquare = function () {
+    // for(let i = 0; i <= this; i++) {
+    //     if(i * i === this) return true;
+    //   }
+    //   return false;
+
     return Number.isInteger(Math.sqrt(this));
 };
 
@@ -208,6 +208,16 @@ Array.prototype.average = function () {
 // Example: ["a", "b", "b", "c"].removeDuplicates() should return ["a", "b", "c"].
 
 Array.prototype.removeDuplicates = function () {
+    // const unique = [];
+    // const seen = {};
+    // for(let i = 0; i < this.length; i++) {
+    //   if(!seen[this[i]]) {
+    //     unique.push(this[i]);
+    //     seen[this[i]] = true;
+    //   }
+    // }
+    // return unique;
+
     const uniqueArray = [];
 
     for (let i = 0; i < this.length; i++) {
@@ -227,13 +237,14 @@ Array.prototype.removeDuplicates = function () {
 // Example: ["a", "b", "c"].shuffle() could return ["c", "a", "b"].
 
 Array.prototype.shuffle = function () {
-    const array = this.slice();
-    for (let i = this.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1)); //  0.8 * (2+1) => 2; 0.4 * (1+1) => 0
-        [array[i], array[j]] = [array[j], array[i]];
+    for (let i = 0; i < this.length; i++) {
+        const j = Math.floor(Math.random() * this.length);
+        const temp = this[i];
+        this[i] = this[j];
+        this[j] = temp;
     }
-    return array;
+    return this;
 };
 
-console.log([1, 2, 3, 5].shuffle());
+console.log([1, 2, 3, 4, 5].shuffle());
 console.log(["a", "b", "c"].shuffle());
