@@ -16,17 +16,15 @@ const counter = createCounter();
 
 // 2. Temperature Converter
 function temperatureConverter(unit) {
-    if (unit === "C") {
-        return function (fahrenheit) {
-            return ((fahrenheit - 32) * 5) / 9;
-        };
-    } else if (unit === "F") {
-        return function (celsius) {
-            return (celsius * 9) / 5 + 32;
-        };
-    } else {
-        return "Invalid unit. Please use 'C' or 'F'.";
-    }
+    return function (temperature) {
+        if (unit === "C") {
+            return ((temperature - 32) * 5) / 9;
+        } else if (unit === "F") {
+            return (temperature * 9) / 5 + 32;
+        } else {
+            return "Invalid Unit";
+        }
+    };
 }
 
 const toCelsius = temperatureConverter("C");
@@ -48,8 +46,8 @@ const greetJohn = greet("John");
 // 4. Interest Calculator
 
 function interestCalculator(rate) {
-    return function (principal) {
-        return principal * (rate / 100) * 1;
+    return function (amount) {
+        return (rate / 100) * amount;
     };
 }
 
@@ -109,11 +107,14 @@ const johnGreeting = sequentialGreet("John");
 function personalLibrary() {
     const books = [];
     return {
-        add: function (bookTitle) {
-            books.push(bookTitle);
+        add: function (book) {
+            books.push(book);
         },
-        remove: function (bookTitle) {
-            books.shift(bookTitle);
+        remove: function (book) {
+            const index = books.indexOf(book);
+            if (index !== -1) {
+                books.splice(index, 1);
+            }
         },
         list: function () {
             return books;
