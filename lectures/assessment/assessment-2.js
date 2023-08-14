@@ -6,79 +6,66 @@ class Good {
         this.price = price;
     }
 }
-
+// Example: const apple = new Good(1, “Apple”, 50, 0.5);
 class Inventory {
     constructor() {
-        this.goods = []; // [{id:1, name: "apple", quantity: 50, price: 0.5}]
+        this.goods = [];
     }
-
     addGood(good) {
         for (let i = 0; i < this.goods.length; i++) {
-            if (this.goods[i].id === good.id) {
-                throw new Error("Good already exists in inventory.");
+            const singleGood = this.goods[i];
+            if (singleGood.id === good.id) {
+                throw new Error("Good already exists in the inventory.");
             }
         }
         this.goods.push(good);
     }
-
-    remove(id) {
+    removeGood(id) {
         for (let i = 0; i < this.goods.length; i++) {
-            if (this.goods[i].id === id) {
-                this.goods.splice(i, 1);
-                return;
+            const singleGood = this.goods[i];
+            if (singleGood.id === id) {
+                return this.goods.splice(i, 1);
             }
         }
-        throw new Error("Good not found in inventory.");
+        throw new Error("Good not found in the inventory");
     }
-
     updateGood(id, updatedGood) {
         for (let i = 0; i < this.goods.length; i++) {
             if (this.goods[i].id === id) {
-                this.goods[i] = updatedGood;
-                return;
+                return (this.goods[i] = updatedGood);
             }
         }
         throw new Error("Good not found in inventory.");
     }
-
     viewGoods() {
         return this.goods;
     }
-
     searchGoodByName(name) {
-        const searchResult = [];
-        for (let i = 0; i < this.goods.length; i++) {
+        const matchedGoods = [];
+        let i = 0;
+        while (i < this.goods.length) {
             if (this.goods[i].name === name) {
-                searchResult.push(this.goods[i]);
+                matchedGoods.push(this.goods[i]);
+                // return this.goods[i];     this works as well. But we have to return a new array.
             }
+            i++;
         }
-        return searchResult;
+        return matchedGoods;
     }
-
     applyDiscount(percent) {
         for (let i = 0; i < this.goods.length; i++) {
-            this.goods[i].price =
-                this.goods[i].price - (this.goods[i].price * percent) / 100;
+            this.goods[i].price *= 1 - percent / 100;
         }
     }
-
-    generateSalesReport() {
-        let totalRevenue = 0;
-        let totalSoldItems = 0;
-
+    generalSalesReport() {
+        let obj = { totalRevenue: 0, totalSoldItem: 0, averagePrice: 0 };
         for (let i = 0; i < this.goods.length; i++) {
-            totalRevenue += this.goods[i].price * this.goods[i].quantity;
-            totalSoldItems += this.goods[i].quantity;
+            obj.totalRevenue += this.goods[i].price * this.goods[i].quantity;
+            obj.totalSoldItem += this.goods[i].quantity;
         }
-        const averagePrice = totalRevenue / totalSoldItems;
-
-        return {
-            totalRevenue,
-            totalSoldItems,
-            averagePrice
-        };
+        obj.averagePrice = obj.totalRevenue / obj.totalSoldItem;
+        return obj;
     }
-
     sellGood(id, quantity) {
         for (let i = 0; i < this.goods.length; i++) {
             const item = this.goods[i];
@@ -98,28 +85,24 @@ class Inventory {
         throw new Error("Good not found in inventory.");
     }
 }
-
-const apple = new Good(1, "Apple", 50, 0.5);
+// const apple1 = new Good(1, “Apple”, 50, 0.5);
+// 1st condition. inventory.sellGood(1, 20)  >=     (1, “Apple”, 30, 0.5);
+// 2nd condition. inventory.sellGood(1, 80)  >=     (1, “Apple”, 50, 0.5);   =>   throw New Error (“Given Quantiy exceeds stock, not enough in the stock.“)
+const apple1 = new Good(1, "Apple", 50, 0.5);
+const apple2 = new Good(5, "Apple", 30, 1.2);
 const banana = new Good(2, "Banana", 40, 0.6);
+const orange = new Good(3, "Orange", 60, 1);
 const inventory = new Inventory();
-
-inventory.addGood(apple);
+const updatedGood = new Good(1, "Apple", 60, 0.8);
+inventory.addGood(apple1);
+inventory.addGood(apple2);
 inventory.addGood(banana);
+inventory.addGood(orange);
+inventory.removeGood(2);
 console.log(inventory.viewGoods());
-
+inventory.updateGood(1, updatedGood);
+inventory.applyDiscount(30);
+console.log(inventory.viewGoods());
 console.log(inventory.searchGoodByName("Apple"));
-
-inventory.applyDiscount(10);
-console.log(inventory.viewGoods());
-
-inventory.remove(2);
-console.log(inventory.viewGoods());
-
-const updatedApple = new Good(1, "Apple", 55, 0.6);
-inventory.updateGood(1, updatedApple);
-console.log(inventory.viewGoods());
-
-inventory.sellGood(1, 5);
-console.log(inventory.viewGoods());
-console.log(inventory.generateSalesReport());
-console.log(inventory.sellGood(1, 10));
+console.log(inventory.generalSalesReport());
+console.log(inventory.sellGood(1, 20));
