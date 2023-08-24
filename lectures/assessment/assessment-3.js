@@ -1,22 +1,37 @@
-//Problem 1 Create a function named transformBooks with the following specifications:
-// Input: Takes an array of arrays where each sub-array represents a collection of books in a library's section, all belonging to the same genre. Each book is represented as an object with the following properties:
-// title: String, the title of the book.
-// author: String, the author's name.
-// genre: String, the genre of the book.
-// rating: Number, the rating of the book on a scale of 1 to 5.
+//Problem 1
+function getAvarageAndTopBook(section) {
+    let sumOfRating = 0;
+    let maxRating = 0;
+    let topBook = "";
+
+    section.forEach((book) => {
+        sumOfRating += book.rating;
+        if (book.rating > maxRating) {
+            maxRating = book.rating;
+            topBook = book.title;
+        }
+    });
+    const averageRating = sumOfRating / section.length;
+
+    return {
+        averageRating: averageRating,
+        topBook: topBook
+    };
+}
 
 function transformBooks(librarySections) {
     const transformatedSections = librarySections.map((section) => {
-        const transformatedBooks = section.map((book) => {
-            return {
-                title: book.title,
-                author: book.author,
-                genre: book.genre,
-                rating: book.rating
-            };
-        });
-        return transformatedBooks;
+        const genre = section[0].genre;
+
+        const averageAndTopBook = getAvarageAndTopBook(section);
+
+        return {
+            genre: genre,
+            averageRating: averageAndTopBook.averageRating,
+            topBook: averageAndTopBook.topBook
+        };
     });
+
     return transformatedSections;
 }
 
@@ -77,10 +92,7 @@ const library = [
     ]
 ];
 
-// const transformedSections = transformBooks(library);
-// transformedSections.forEach((section, index) => {
-//     console.log(`Section ${index + 1}:`, section);
-// });
+// console.log(transformBooks(library));
 
 // Problem 2
 // Create a function named filterBooks with the following specifications:
@@ -238,6 +250,6 @@ function checkWinner(gameBoard) {
     return null;
 }
 
-const gameBoard = ["X", "O", "X", "X", "X", "O", "O", "O", "O"];
+const gameBoard = ["X", "O", "X", "X", "X", "O", "O", "O", "X"];
 
 console.log(checkWinner(gameBoard));
