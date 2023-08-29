@@ -1,0 +1,20 @@
+{
+    "name": "npm-intro",
+    "version": "1.0.0",
+    "description": "This is simple NPM intro",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "npm-intro"
+    },
+    "author": "Durdona",
+    "license": "ISC",
+    "dependencies": {
+        "pluralize": "^8.0.0",
+        "uuid": "^9.0.0"
+    }
+}
