@@ -1,11 +1,8 @@
 const fs = require("fs");
 
-// const content = fs.readFileSync("data.csv", "utf-8");
-// console.log(content);
-
 class Data {
     read(fileUrl) {
-        return fs.readFileSync("data.csv", "utf-8");
+        return fs.readFileSync(fileUrl, "utf-8");
     }
 
     parse(content) {
@@ -21,9 +18,8 @@ class Data {
         const all = this.parse(content);
         const header = this.parseRow(all[0]);
         const rows = all.slice(1);
-        console.log(rows);
 
-        const formattedDate = rows.map((row) => {
+        const formattedData = rows.map((row) => {
             const personArr = this.parseRow(row);
             const personObj = {};
 
@@ -36,7 +32,7 @@ class Data {
             return personObj;
         });
 
-        return formattedDate;
+        return formattedData;
     }
 }
 
