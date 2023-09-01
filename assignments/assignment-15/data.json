@@ -1,0 +1,2182 @@
+{
+    "1": {
+        "id": "550d9587-cbb4-47bf-814f-485a3f697011",
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "expenses": {
+            "january": {
+                "food": 300,
+                "rent": 1000,
+                "entertainment": 200,
+                "transportation": 200,
+                "utilities": 75
+            },
+            "february": {
+                "food": 350,
+                "rent": 1050,
+                "entertainment": 180,
+                "transportation": 210,
+                "utilities": 156
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 120
+            },
+            "april": {
+                "food": 280,
+                "rent": 900,
+                "entertainment": 190,
+                "transportation": 220,
+                "utilities": 152
+            },
+            "may": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 210,
+                "transportation": 180,
+                "utilities": 170
+            },
+            "june": {
+                "food": 320,
+                "rent": 980,
+                "entertainment": 180,
+                "transportation": 200,
+                "utilities": 118
+            },
+            "july": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 94
+            },
+            "august": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 180,
+                "utilities": 94
+            },
+            "september": {
+                "food": 290,
+                "rent": 970,
+                "entertainment": 190,
+                "transportation": 230,
+                "utilities": 114
+            },
+            "october": {
+                "food": 280,
+                "rent": 950,
+                "entertainment": 180,
+                "transportation": 200,
+                "utilities": 124
+            },
+            "november": {
+                "food": 300,
+                "rent": 1000,
+                "entertainment": 200,
+                "transportation": 250,
+                "utilities": 160
+            },
+            "december": {
+                "food": 320,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 96
+            }
+        },
+        "netIncomes": {
+            "january": 9000,
+            "february": 11250,
+            "march": 9750,
+            "april": 10500,
+            "may": 12000,
+            "june": 13500,
+            "july": 12000,
+            "august": 12750,
+            "september": 10500,
+            "october": 12000,
+            "november": 11250,
+            "december": 12750
+        },
+        "totalExpenses": 21853,
+        "totalIncome": 137250,
+        "minExpenses": 1775,
+        "maxExpenses": 21853
+    },
+    "2": {
+        "id": "4a18528c-2d2a-47be-b29f-82a51266b707",
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "expenses": {
+            "january": {
+                "food": 250,
+                "rent": 950,
+                "entertainment": 150,
+                "transportation": 180,
+                "utilities": 179
+            },
+            "february": {
+                "food": 280,
+                "rent": 1000,
+                "entertainment": 170,
+                "transportation": 200,
+                "utilities": 101
+            },
+            "march": {
+                "food": 300,
+                "rent": 1050,
+                "entertainment": 190,
+                "transportation": 220,
+                "utilities": 169
+            },
+            "april": {
+                "food": 270,
+                "rent": 900,
+                "entertainment": 160,
+                "transportation": 190,
+                "utilities": 91
+            },
+            "may": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 180,
+                "transportation": 200,
+                "utilities": 97
+            },
+            "june": {
+                "food": 310,
+                "rent": 980,
+                "entertainment": 160,
+                "transportation": 190,
+                "utilities": 186
+            },
+            "july": {
+                "food": 300,
+                "rent": 1050,
+                "entertainment": 190,
+                "transportation": 180,
+                "utilities": 90
+            },
+            "august": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 180,
+                "transportation": 210,
+                "utilities": 96
+            },
+            "september": {
+                "food": 280,
+                "rent": 970,
+                "entertainment": 150,
+                "transportation": 180,
+                "utilities": 150
+            },
+            "october": {
+                "food": 260,
+                "rent": 950,
+                "entertainment": 170,
+                "transportation": 210,
+                "utilities": 98
+            },
+            "november": {
+                "food": 290,
+                "rent": 1000,
+                "entertainment": 160,
+                "transportation": 220,
+                "utilities": 111
+            },
+            "december": {
+                "food": 280,
+                "rent": 980,
+                "entertainment": 180,
+                "transportation": 230,
+                "utilities": 120
+            }
+        },
+        "netIncomes": {
+            "january": 15000,
+            "february": 16500,
+            "march": 15750,
+            "april": 17250,
+            "may": 18000,
+            "june": 18750,
+            "july": 18000,
+            "august": 18750,
+            "september": 17250,
+            "october": 18000,
+            "november": 17250,
+            "december": 18750
+        },
+        "totalExpenses": 21148,
+        "totalIncome": 209250,
+        "minExpenses": 1709,
+        "maxExpenses": 21148
+    },
+    "3": {
+        "id": "12ed73e6-6755-4d2f-808e-a628db1d32a9",
+        "firstName": "Charlie",
+        "lastName": "Brown",
+        "expenses": {
+            "january": {
+                "food": 350,
+                "rent": 1200,
+                "entertainment": 250,
+                "transportation": 200,
+                "utilities": 188
+            },
+            "february": {
+                "food": 380,
+                "rent": 1300,
+                "entertainment": 220,
+                "transportation": 230,
+                "utilities": 110
+            },
+            "march": {
+                "food": 370,
+                "rent": 1250,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 183
+            },
+            "april": {
+                "food": 330,
+                "rent": 1100,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 192
+            },
+            "may": {
+                "food": 340,
+                "rent": 1150,
+                "entertainment": 250,
+                "transportation": 200,
+                "utilities": 93
+            },
+            "june": {
+                "food": 360,
+                "rent": 1200,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 180
+            },
+            "july": {
+                "food": 350,
+                "rent": 1250,
+                "entertainment": 260,
+                "transportation": 210,
+                "utilities": 135
+            },
+            "august": {
+                "food": 370,
+                "rent": 1200,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 127
+            },
+            "september": {
+                "food": 330,
+                "rent": 1150,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 168
+            },
+            "october": {
+                "food": 320,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 240,
+                "utilities": 108
+            },
+            "november": {
+                "food": 340,
+                "rent": 1200,
+                "entertainment": 250,
+                "transportation": 220,
+                "utilities": 106
+            },
+            "december": {
+                "food": 330,
+                "rent": 1150,
+                "entertainment": 240,
+                "transportation": 230,
+                "utilities": 84
+            }
+        },
+        "netIncomes": {
+            "january": 135000,
+            "february": 138750,
+            "march": 142500,
+            "april": 150000,
+            "may": 157500,
+            "june": 161250,
+            "july": 165000,
+            "august": 172500,
+            "september": 180000,
+            "october": 187500,
+            "november": 195000,
+            "december": 202500
+        },
+        "totalExpenses": 25544,
+        "totalIncome": 1987500,
+        "minExpenses": 2188,
+        "maxExpenses": 25544
+    },
+    "4": {
+        "id": "d869d786-1ffe-4c24-843f-08279dbadde1",
+        "firstName": "David",
+        "lastName": "Williams",
+        "expenses": {
+            "january": {
+                "food": 320,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 180
+            },
+            "february": {
+                "food": 350,
+                "rent": 1200,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 162
+            },
+            "march": {
+                "food": 330,
+                "rent": 1150,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 96
+            },
+            "april": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 193
+            },
+            "may": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 200,
+                "utilities": 171
+            },
+            "june": {
+                "food": 340,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 137
+            },
+            "july": {
+                "food": 320,
+                "rent": 1150,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 146
+            },
+            "august": {
+                "food": 340,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 95
+            },
+            "september": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 125
+            },
+            "october": {
+                "food": 300,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 230,
+                "utilities": 98
+            },
+            "november": {
+                "food": 320,
+                "rent": 1100,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 194
+            },
+            "december": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 240,
+                "utilities": 129
+            }
+        },
+        "netIncomes": {
+            "january": 45000,
+            "february": 46500,
+            "march": 48750,
+            "april": 52500,
+            "may": 54000,
+            "june": 56250,
+            "july": 58500,
+            "august": 60000,
+            "september": 61500,
+            "october": 63750,
+            "november": 65250,
+            "december": 67500
+        },
+        "totalExpenses": 24036,
+        "totalIncome": 679500,
+        "minExpenses": 2030,
+        "maxExpenses": 24036
+    },
+    "5": {
+        "id": "9303cf05-764f-4b55-a889-8be719ef3a75",
+        "firstName": "Eva",
+        "lastName": "Davis",
+        "expenses": {
+            "january": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 137
+            },
+            "february": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 164
+            },
+            "march": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 192
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 160
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 94
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 84
+            },
+            "july": {
+                "food": 320,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 155
+            },
+            "august": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 112
+            },
+            "september": {
+                "food": 320,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 77
+            },
+            "october": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 144
+            },
+            "november": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 137
+            },
+            "december": {
+                "food": 310,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 198
+            }
+        },
+        "netIncomes": {
+            "january": 75000,
+            "february": 78750,
+            "march": 82500,
+            "april": 86250,
+            "may": 90000,
+            "june": 93750,
+            "july": 97500,
+            "august": 101250,
+            "september": 105000,
+            "october": 108750,
+            "november": 112500,
+            "december": 116250
+        },
+        "totalExpenses": 22454,
+        "totalIncome": 1147500,
+        "minExpenses": 1787,
+        "maxExpenses": 22454
+    },
+    "6": {
+        "id": "cbbbe53d-20ab-4319-b0ba-4ee4bdfd4df2",
+        "firstName": "Frank",
+        "lastName": "Johnson",
+        "expenses": {
+            "january": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 200,
+                "utilities": 197
+            },
+            "february": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 105
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 172
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 108
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 127
+            },
+            "june": {
+                "food": 340,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 115
+            },
+            "july": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 157
+            },
+            "august": {
+                "food": 350,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 138
+            },
+            "september": {
+                "food": 320,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 160
+            },
+            "october": {
+                "food": 310,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 179
+            },
+            "november": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 114
+            },
+            "december": {
+                "food": 320,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 176
+            }
+        },
+        "netIncomes": {
+            "january": 60000,
+            "february": 63750,
+            "march": 67500,
+            "april": 71250,
+            "may": 75000,
+            "june": 78750,
+            "july": 82500,
+            "august": 86250,
+            "september": 90000,
+            "october": 93750,
+            "november": 97500,
+            "december": 101250
+        },
+        "totalExpenses": 22638,
+        "totalIncome": 967500,
+        "minExpenses": 1927,
+        "maxExpenses": 22638
+    },
+    "7": {
+        "id": "443c6d50-219e-4c23-8e92-0b837448ff0b",
+        "firstName": "Grace",
+        "lastName": "Miller",
+        "expenses": {
+            "january": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 210,
+                "transportation": 190,
+                "utilities": 179
+            },
+            "february": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 163
+            },
+            "march": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 163
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 94
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 180,
+                "utilities": 168
+            },
+            "june": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 103
+            },
+            "july": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 197
+            },
+            "august": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 147
+            },
+            "september": {
+                "food": 300,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 117
+            },
+            "october": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 166
+            },
+            "november": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 192
+            },
+            "december": {
+                "food": 300,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 82
+            }
+        },
+        "netIncomes": {
+            "january": 37500,
+            "february": 39000,
+            "march": 41250,
+            "april": 43500,
+            "may": 45750,
+            "june": 48000,
+            "july": 50250,
+            "august": 52500,
+            "september": 54750,
+            "october": 57000,
+            "november": 59250,
+            "december": 61500
+        },
+        "totalExpenses": 22461,
+        "totalIncome": 590250,
+        "minExpenses": 1819,
+        "maxExpenses": 22461
+    },
+    "8": {
+        "id": "57499564-7d03-46db-83db-a28c08c0a758",
+        "firstName": "Henry",
+        "lastName": "Taylor",
+        "expenses": {
+            "january": {
+                "food": 280,
+                "rent": 900,
+                "entertainment": 200,
+                "transportation": 180,
+                "utilities": 151
+            },
+            "february": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 176
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 185
+            },
+            "april": {
+                "food": 290,
+                "rent": 850,
+                "entertainment": 230,
+                "transportation": 180,
+                "utilities": 105
+            },
+            "may": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 250,
+                "transportation": 170,
+                "utilities": 190
+            },
+            "june": {
+                "food": 320,
+                "rent": 920,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 94
+            },
+            "july": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 200,
+                "transportation": 200,
+                "utilities": 168
+            },
+            "august": {
+                "food": 320,
+                "rent": 900,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 81
+            },
+            "september": {
+                "food": 290,
+                "rent": 880,
+                "entertainment": 210,
+                "transportation": 170,
+                "utilities": 120
+            },
+            "october": {
+                "food": 280,
+                "rent": 850,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 181
+            },
+            "november": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 210,
+                "transportation": 200,
+                "utilities": 109
+            },
+            "december": {
+                "food": 290,
+                "rent": 880,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 142
+            }
+        },
+        "netIncomes": {
+            "january": 71250,
+            "february": 75000,
+            "march": 78750,
+            "april": 82500,
+            "may": 86250,
+            "june": 90000,
+            "july": 93750,
+            "august": 97500,
+            "september": 101250,
+            "october": 105000,
+            "november": 108750,
+            "december": 112500
+        },
+        "totalExpenses": 21102,
+        "totalIncome": 1102500,
+        "minExpenses": 1711,
+        "maxExpenses": 21102
+    },
+    "9": {
+        "id": "f4bb194f-a272-4ed2-9046-013abf3c2fe8",
+        "firstName": "Isabella",
+        "lastName": "Anderson",
+        "expenses": {
+            "january": {
+                "food": 330,
+                "rent": 1100,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 112
+            },
+            "february": {
+                "food": 350,
+                "rent": 1150,
+                "entertainment": 240,
+                "transportation": 230,
+                "utilities": 190
+            },
+            "march": {
+                "food": 340,
+                "rent": 1200,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 172
+            },
+            "april": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 96
+            },
+            "may": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 190,
+                "utilities": 186
+            },
+            "june": {
+                "food": 350,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 119
+            },
+            "july": {
+                "food": 340,
+                "rent": 1150,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 134
+            },
+            "august": {
+                "food": 360,
+                "rent": 1200,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 158
+            },
+            "september": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 88
+            },
+            "october": {
+                "food": 320,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 97
+            },
+            "november": {
+                "food": 340,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 194
+            },
+            "december": {
+                "food": 330,
+                "rent": 1150,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 131
+            }
+        },
+        "netIncomes": {
+            "january": 90000,
+            "february": 93750,
+            "march": 97500,
+            "april": 101250,
+            "may": 105000,
+            "june": 108750,
+            "july": 112500,
+            "august": 116250,
+            "september": 120000,
+            "october": 123750,
+            "november": 127500,
+            "december": 131250
+        },
+        "totalExpenses": 24247,
+        "totalIncome": 1327500,
+        "minExpenses": 1972,
+        "maxExpenses": 24247
+    },
+    "10": {
+        "id": "6d2e504d-84e5-449e-a5b3-9fd889353751",
+        "firstName": "Jack",
+        "lastName": "Martinez",
+        "expenses": {
+            "january": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 200,
+                "utilities": 85
+            },
+            "february": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 127
+            },
+            "march": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 154
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 131
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 170,
+                "utilities": 114
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 85
+            },
+            "july": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 87
+            },
+            "august": {
+                "food": 360,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 146
+            },
+            "september": {
+                "food": 330,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 109
+            },
+            "october": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 153
+            },
+            "november": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 124
+            },
+            "december": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 184
+            }
+        },
+        "netIncomes": {
+            "january": 75000,
+            "february": 78750,
+            "march": 82500,
+            "april": 86250,
+            "may": 90000,
+            "june": 93750,
+            "july": 97500,
+            "august": 101250,
+            "september": 105000,
+            "october": 108750,
+            "november": 112500,
+            "december": 116250
+        },
+        "totalExpenses": 22519,
+        "totalIncome": 1147500,
+        "minExpenses": 1815,
+        "maxExpenses": 22519
+    },
+    "11": {
+        "id": "d290a429-96f6-4c6b-b4f1-7d5fc596db2e",
+        "firstName": "Olivia",
+        "lastName": "Garcia",
+        "expenses": {
+            "january": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 200,
+                "utilities": 137
+            },
+            "february": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 119
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 76
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 150
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 81
+            },
+            "june": {
+                "food": 340,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 150
+            },
+            "july": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 190
+            },
+            "august": {
+                "food": 350,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 79
+            },
+            "september": {
+                "food": 320,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 168
+            },
+            "october": {
+                "food": 310,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 105
+            },
+            "november": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 184
+            },
+            "december": {
+                "food": 320,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 108
+            }
+        },
+        "netIncomes": {
+            "january": 71250,
+            "february": 75000,
+            "march": 78750,
+            "april": 82500,
+            "may": 86250,
+            "june": 90000,
+            "july": 93750,
+            "august": 97500,
+            "september": 101250,
+            "october": 105000,
+            "november": 108750,
+            "december": 112500
+        },
+        "totalExpenses": 22417,
+        "totalIncome": 1102500,
+        "minExpenses": 1867,
+        "maxExpenses": 22417
+    },
+    "12": {
+        "id": "14f2e25f-6f9b-4aeb-8472-3d90bc7287e4",
+        "firstName": "Liam",
+        "lastName": "Martinez",
+        "expenses": {
+            "january": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 200,
+                "utilities": 197
+            },
+            "february": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 165
+            },
+            "march": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 161
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 177
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 170,
+                "utilities": 145
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 116
+            },
+            "july": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 184
+            },
+            "august": {
+                "food": 360,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 142
+            },
+            "september": {
+                "food": 330,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 153
+            },
+            "october": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 90
+            },
+            "november": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 156
+            },
+            "december": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 133
+            }
+        },
+        "netIncomes": {
+            "january": 75000,
+            "february": 78750,
+            "march": 82500,
+            "april": 86250,
+            "may": 90000,
+            "june": 93750,
+            "july": 97500,
+            "august": 101250,
+            "september": 105000,
+            "october": 108750,
+            "november": 112500,
+            "december": 116250
+        },
+        "totalExpenses": 22839,
+        "totalIncome": 1147500,
+        "minExpenses": 1927,
+        "maxExpenses": 22839
+    },
+    "13": {
+        "id": "72929999-ee36-46e7-afeb-f06533140c6d",
+        "firstName": "Emma",
+        "lastName": "Rodriguez",
+        "expenses": {
+            "january": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 170
+            },
+            "february": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 84
+            },
+            "march": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 113
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 96
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 119
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 76
+            },
+            "july": {
+                "food": 320,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 131
+            },
+            "august": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 165
+            },
+            "september": {
+                "food": 320,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 161
+            },
+            "october": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 157
+            },
+            "november": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 82
+            },
+            "december": {
+                "food": 310,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 140
+            }
+        },
+        "netIncomes": {
+            "january": 63750,
+            "february": 67500,
+            "march": 71250,
+            "april": 75000,
+            "may": 78750,
+            "june": 82500,
+            "july": 86250,
+            "august": 90000,
+            "september": 93750,
+            "october": 97500,
+            "november": 101250,
+            "december": 105000
+        },
+        "totalExpenses": 22294,
+        "totalIncome": 1012500,
+        "minExpenses": 1820,
+        "maxExpenses": 22294
+    },
+    "14": {
+        "id": "1e766937-5584-4c48-bad8-c2fc7a86b6bb",
+        "firstName": "Noah",
+        "lastName": "Lopez",
+        "expenses": {
+            "january": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 210,
+                "transportation": 190,
+                "utilities": 103
+            },
+            "february": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 118
+            },
+            "march": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 142
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 115
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 180,
+                "utilities": 192
+            },
+            "june": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 162
+            },
+            "july": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 163
+            },
+            "august": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 98
+            },
+            "september": {
+                "food": 300,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 85
+            },
+            "october": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 194
+            },
+            "november": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 148
+            },
+            "december": {
+                "food": 300,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 179
+            }
+        },
+        "netIncomes": {
+            "january": 56250,
+            "february": 60000,
+            "march": 63750,
+            "april": 67500,
+            "may": 71250,
+            "june": 75000,
+            "july": 78750,
+            "august": 82500,
+            "september": 86250,
+            "october": 90000,
+            "november": 93750,
+            "december": 97500
+        },
+        "totalExpenses": 22389,
+        "totalIncome": 922500,
+        "minExpenses": 1743,
+        "maxExpenses": 22389
+    },
+    "15": {
+        "id": "22920fc5-e79e-400b-87b5-2c474296b7a3",
+        "firstName": "Sophia",
+        "lastName": "Rivera",
+        "expenses": {
+            "january": {
+                "food": 280,
+                "rent": 900,
+                "entertainment": 200,
+                "transportation": 180,
+                "utilities": 153
+            },
+            "february": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 176
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 95
+            },
+            "april": {
+                "food": 290,
+                "rent": 850,
+                "entertainment": 230,
+                "transportation": 180,
+                "utilities": 161
+            },
+            "may": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 250,
+                "transportation": 170,
+                "utilities": 166
+            },
+            "june": {
+                "food": 320,
+                "rent": 920,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 189
+            },
+            "july": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 200,
+                "transportation": 200,
+                "utilities": 97
+            },
+            "august": {
+                "food": 320,
+                "rent": 900,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 147
+            },
+            "september": {
+                "food": 290,
+                "rent": 880,
+                "entertainment": 210,
+                "transportation": 170,
+                "utilities": 159
+            },
+            "october": {
+                "food": 280,
+                "rent": 850,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 144
+            },
+            "november": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 210,
+                "transportation": 200,
+                "utilities": 151
+            },
+            "december": {
+                "food": 290,
+                "rent": 880,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 187
+            }
+        },
+        "netIncomes": {
+            "january": 45000,
+            "february": 48750,
+            "march": 52500,
+            "april": 56250,
+            "may": 60000,
+            "june": 63750,
+            "july": 67500,
+            "august": 71250,
+            "september": 75000,
+            "october": 78750,
+            "november": 82500,
+            "december": 86250
+        },
+        "totalExpenses": 21225,
+        "totalIncome": 787500,
+        "minExpenses": 1713,
+        "maxExpenses": 21225
+    },
+    "16": {
+        "id": "994ed571-14c1-4272-9d76-ca05b5b9308b",
+        "firstName": "Aiden",
+        "lastName": "Hernandez",
+        "expenses": {
+            "january": {
+                "food": 330,
+                "rent": 1100,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 184
+            },
+            "february": {
+                "food": 350,
+                "rent": 1150,
+                "entertainment": 240,
+                "transportation": 230,
+                "utilities": 189
+            },
+            "march": {
+                "food": 340,
+                "rent": 1200,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 93
+            },
+            "april": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 151
+            },
+            "may": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 190,
+                "utilities": 125
+            },
+            "june": {
+                "food": 350,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 144
+            },
+            "july": {
+                "food": 340,
+                "rent": 1150,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 140
+            },
+            "august": {
+                "food": 360,
+                "rent": 1200,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 149
+            },
+            "september": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 190,
+                "utilities": 159
+            },
+            "october": {
+                "food": 320,
+                "rent": 1050,
+                "entertainment": 250,
+                "transportation": 210,
+                "utilities": 199
+            },
+            "november": {
+                "food": 340,
+                "rent": 1100,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 185
+            },
+            "december": {
+                "food": 330,
+                "rent": 1150,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 93
+            }
+        },
+        "netIncomes": {
+            "january": 52500,
+            "february": 56250,
+            "march": 60000,
+            "april": 63750,
+            "may": 67500,
+            "june": 71250,
+            "july": 75000,
+            "august": 78750,
+            "september": 82500,
+            "october": 86250,
+            "november": 90000,
+            "december": 93750
+        },
+        "totalExpenses": 24381,
+        "totalIncome": 877500,
+        "minExpenses": 2044,
+        "maxExpenses": 24381
+    },
+    "17": {
+        "id": "e97928ef-7842-429f-959a-5ff69dbc82dd",
+        "firstName": "Mia",
+        "lastName": "Gonzalez",
+        "expenses": {
+            "january": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 200,
+                "utilities": 126
+            },
+            "february": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 230,
+                "transportation": 220,
+                "utilities": 119
+            },
+            "march": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 191
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 106
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 170,
+                "utilities": 88
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 100
+            },
+            "july": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 167
+            },
+            "august": {
+                "food": 360,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 80
+            },
+            "september": {
+                "food": 330,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 192
+            },
+            "october": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 163
+            },
+            "november": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 81
+            },
+            "december": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 176
+            }
+        },
+        "netIncomes": {
+            "january": 45000,
+            "february": 48750,
+            "march": 52500,
+            "april": 56250,
+            "may": 60000,
+            "june": 63750,
+            "july": 67500,
+            "august": 71250,
+            "september": 75000,
+            "october": 78750,
+            "november": 82500,
+            "december": 86250
+        },
+        "totalExpenses": 22609,
+        "totalIncome": 787500,
+        "minExpenses": 1856,
+        "maxExpenses": 22609
+    },
+    "18": {
+        "id": "8adb3ed9-e697-4188-a22f-ba631db86128",
+        "firstName": "James",
+        "lastName": "Perez",
+        "expenses": {
+            "january": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 200,
+                "utilities": 200
+            },
+            "february": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 188
+            },
+            "march": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 158
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 153
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 113
+            },
+            "june": {
+                "food": 340,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 112
+            },
+            "july": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 80
+            },
+            "august": {
+                "food": 350,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 190
+            },
+            "september": {
+                "food": 320,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 114
+            },
+            "october": {
+                "food": 310,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 96
+            },
+            "november": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 193
+            },
+            "december": {
+                "food": 320,
+                "rent": 980,
+                "entertainment": 210,
+                "transportation": 230,
+                "utilities": 181
+            }
+        },
+        "netIncomes": {
+            "january": 56250,
+            "february": 60000,
+            "march": 63750,
+            "april": 67500,
+            "may": 71250,
+            "june": 75000,
+            "july": 78750,
+            "august": 82500,
+            "september": 86250,
+            "october": 90000,
+            "november": 93750,
+            "december": 97500
+        },
+        "totalExpenses": 22648,
+        "totalIncome": 922500,
+        "minExpenses": 1930,
+        "maxExpenses": 22648
+    },
+    "19": {
+        "id": "0d36dba9-2d73-4c45-9d93-fb934b47bd1c",
+        "firstName": "Ava",
+        "lastName": "Fernandez",
+        "expenses": {
+            "january": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 210,
+                "transportation": 190,
+                "utilities": 92
+            },
+            "february": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 95
+            },
+            "march": {
+                "food": 330,
+                "rent": 1050,
+                "entertainment": 220,
+                "transportation": 210,
+                "utilities": 187
+            },
+            "april": {
+                "food": 300,
+                "rent": 900,
+                "entertainment": 240,
+                "transportation": 180,
+                "utilities": 132
+            },
+            "may": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 260,
+                "transportation": 170,
+                "utilities": 153
+            },
+            "june": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 147
+            },
+            "july": {
+                "food": 310,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 155
+            },
+            "august": {
+                "food": 330,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 115
+            },
+            "september": {
+                "food": 300,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 164
+            },
+            "october": {
+                "food": 290,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 196
+            },
+            "november": {
+                "food": 310,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 200
+            },
+            "december": {
+                "food": 300,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 98
+            }
+        },
+        "netIncomes": {
+            "january": 45000,
+            "february": 48750,
+            "march": 52500,
+            "april": 56250,
+            "may": 60000,
+            "june": 63750,
+            "july": 67500,
+            "august": 71250,
+            "september": 75000,
+            "october": 78750,
+            "november": 82500,
+            "december": 86250
+        },
+        "totalExpenses": 22394,
+        "totalIncome": 787500,
+        "minExpenses": 1732,
+        "maxExpenses": 22394
+    },
+    "20": {
+        "id": "4e1c0490-ac3c-4c89-b82c-0771d70cd7b1",
+        "firstName": "Logan",
+        "lastName": "Torres",
+        "expenses": {
+            "january": {
+                "food": 300,
+                "rent": 950,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 103
+            },
+            "february": {
+                "food": 320,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 200,
+                "utilities": 130
+            },
+            "march": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 220,
+                "utilities": 118
+            },
+            "april": {
+                "food": 310,
+                "rent": 900,
+                "entertainment": 230,
+                "transportation": 190,
+                "utilities": 133
+            },
+            "may": {
+                "food": 330,
+                "rent": 950,
+                "entertainment": 250,
+                "transportation": 180,
+                "utilities": 148
+            },
+            "june": {
+                "food": 350,
+                "rent": 980,
+                "entertainment": 230,
+                "transportation": 200,
+                "utilities": 190
+            },
+            "july": {
+                "food": 340,
+                "rent": 1050,
+                "entertainment": 210,
+                "transportation": 210,
+                "utilities": 159
+            },
+            "august": {
+                "food": 360,
+                "rent": 1000,
+                "entertainment": 240,
+                "transportation": 190,
+                "utilities": 95
+            },
+            "september": {
+                "food": 330,
+                "rent": 970,
+                "entertainment": 220,
+                "transportation": 180,
+                "utilities": 129
+            },
+            "october": {
+                "food": 320,
+                "rent": 950,
+                "entertainment": 240,
+                "transportation": 210,
+                "utilities": 82
+            },
+            "november": {
+                "food": 340,
+                "rent": 1000,
+                "entertainment": 220,
+                "transportation": 220,
+                "utilities": 184
+            },
+            "december": {
+                "food": 330,
+                "rent": 980,
+                "entertainment": 260,
+                "transportation": 230,
+                "utilities": 142
+            }
+        },
+        "netIncomes": {
+            "january": 56250,
+            "february": 60000,
+            "march": 63750,
+            "april": 67500,
+            "may": 71250,
+            "june": 75000,
+            "july": 78750,
+            "august": 82500,
+            "september": 86250,
+            "october": 90000,
+            "november": 93750,
+            "december": 97500
+        },
+        "totalExpenses": 22543,
+        "totalIncome": 922500,
+        "minExpenses": 1753,
+        "maxExpenses": 22543
+    }
+}
